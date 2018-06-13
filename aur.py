@@ -90,7 +90,7 @@ def main():
                 'choices': ['present', 'absent'],
             },
             'tool': {
-                'default': 'pacaur',
+                'default': 'yay',
                 'choices': ['pacaur', 'yaourt', 'yay'],
             },
             'recurse': {
