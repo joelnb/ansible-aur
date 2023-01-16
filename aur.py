@@ -7,6 +7,7 @@ TOOL_CMD_MAP = {
     'pacaur': ['env', 'EDITOR=cat', 'pacaur', '--noconfirm', '--noedit'],
     'yaourt': ['yaourt', '--noconfirm'],
     'yay': ['yay', '--noeditmenu', '--nodiffmenu', '--noconfirm'],
+    'paru': ['paru', '--skipreview', '--noconfirm'],
 }
 
 
@@ -90,8 +91,8 @@ def main():
                 'choices': ['present', 'absent'],
             },
             'tool': {
-                'default': 'pacaur',
-                'choices': ['pacaur', 'yaourt', 'yay'],
+                'default': 'paru',
+                'choices': ['pacaur', 'paru', 'yaourt', 'yay'],
             },
             'recurse': {
                 'default': True,
