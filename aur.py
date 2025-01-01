@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!python
 
 from ansible.module_utils.basic import *
 
